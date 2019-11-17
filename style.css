@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
+body{
+  margin: 0;
+  padding: 2vmin 0vmin 2vmin 0vmin;
+  background-color: white;
+  font-family: Josefin Slab, sans-serif;
+  font-size: 4rem;
+  color: #fff;
+}
+
+
+.section{
+  grid-column-end: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  margin-top: 5vh;
+}
+.slideShowc{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  padding: 0 10vw 0 10vw;
+}
+
+.fullWidth{
+  grid-column-start: 0;
+  grid-column-end:span 4;
+  margin:
+
+}
+.slideshow{
+    grid-column-end: span 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1vmin;
+    grid-row-gap: 1vmin;
+}
+
+.slideshow img{
+  width:100%;
+}
+
+.content1{
+  color:black;
+  transform: translate(40%,250%);
+  text-transform: uppercase;
+  font-size: 100px;
+}
+
+.img{
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+  width:450px;
+  border:10px solid #424242;
+}
+
+.mainMenu{
+  display:flex;
+  justify-content: space-evenly;
+  color: #eee;
+  padding-top: 1vmin;
+  padding-bottom:5vmin;
+  padding-left:15vmin;
+
+}
+
+.middle{
+  padding-right:50px;
+}
+
+.port{
+  padding-left: 50px;
+  padding-right:50px;
+}
+
+.icon img{
+  width: 30px;
+}
+a:link{
+  text-decoration: none;
+}
+
+.contact img{
+  width:20px;
+}
+
+.middle a:visited{
+  text-decoration: none;
+  color:black;
+}
+a:visited{
+  text-decoration: none;
+  color:black;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 5px;
+  justify-content: center;
+}
+
+.col {
+  flex: 25%;
+  max-width: 15%;
+  padding: 0 4px;
+
+}
+
+.col img {
+  vertical-align: middle;
+  margin-top: 7px;
+  width: 100%;
+  filter: grayscale(100%);
+}
+
+.col img:hover{
+  filter: grayscale(0%);
+}
+.portfolio{
+  background-color: white;
+}
+
+
+.grid{
+  display:grid;
+  grid-template-columns: 20% 50% 20%;
+  grid-template-rows: 500px;
+  grid-column-gap: 0vmin;
+  margin-top: 4vmin;
+  margin-left:18vmin;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #000;
+  padding: 20px;
+  margin-top: 200px;
+}
